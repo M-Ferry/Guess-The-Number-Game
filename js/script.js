@@ -1,6 +1,7 @@
 var response = document.querySelector(".response");
 var showGuess = document.querySelector(".show-guess");
 var num = Number(prompt("Guess a number between 1-25. :)"));
+var name = prompt("What is your name? Let's play a game!")
 
 function guessNumber(name, num) {
   var randomNumber = Math.floor(Math.random() * 26); // This will produce a number between 1 and 25 - this line is error free :)
